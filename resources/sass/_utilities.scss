@@ -1,7 +1,18 @@
 // HEADER SCSS
 header {
     #notify {
-        background-color: var(--border-color);
+        background-color: $border-color;
+        height: 20px;
+        color: $primary-color;
+
+        .container {
+            text-align: end;
+
+            span {
+                padding: 5px 10px;
+                font-size: 10px;
+            }
+        }
     }
 
     .header-nav {
@@ -22,14 +33,21 @@ header {
     }
 
     ul li {
-        padding: 0 5px;
+        padding: 0 15px;
     }
 
     ul li a {
         text-decoration: none;
         font-size: 15px;
         font-weight: bold;
-        color: var(--primary-bgc);
+        color: $primary-bgc;
+        padding-bottom: 25px;
+
+        &:hover,
+        &.active {
+            color: $border-color;
+            border-bottom: 4px solid $border-color;
+        }
     }
 }
 
@@ -37,7 +55,7 @@ header {
 // MAIN SCSS
 
 .main-content {
-    background-color: var(--primary-bgc);
+    background-color: $primary-bgc;
     height: 150px;
 }
 
@@ -48,7 +66,7 @@ header {
 }
 
 .current-series {
-    background-color: var(--primary-bgc);
+    background-color: $primary-bgc;
 }
 
 .comic-card {
@@ -100,7 +118,7 @@ ul li a {
 }
 
 .final-footer {
-    background-color: var(--primary-bgc);
+    background-color: $primary-bgc;
     height: 100px;
 }
 
@@ -125,7 +143,7 @@ ul li a {
 }
 
 .btn-sign-up button {
-    background-color: var(--primary-bgc);
+    background-color: $primary-bgc;
     border: 2px solid #0282f9;
     color: #fff;
     padding: 10px 15px;

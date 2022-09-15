@@ -1,10 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 header #notify {
-  background-color: var(--border-color);
+  background-color: #0282f9;
+  height: 20px;
+  color: #fff;
+}
+
+header #notify .container {
+  text-align: end;
+}
+
+header #notify .container span {
+  padding: 5px 10px;
+  font-size: 10px;
 }
 
 header .header-nav {
@@ -25,18 +42,25 @@ header ul {
 }
 
 header ul li {
-  padding: 0 5px;
+  padding: 0 15px;
 }
 
 header ul li a {
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
-  color: var(--primary-bgc);
+  color: #303030;
+  padding-bottom: 25px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
 }
 
 .main-content {
-  background-color: var(--primary-bgc);
+  background-color: #303030;
   height: 150px;
 }
 
@@ -47,7 +71,7 @@ header ul li a {
 }
 
 .current-series {
-  background-color: var(--primary-bgc);
+  background-color: #303030;
 }
 
 .comic-card {
@@ -94,7 +118,7 @@ ul li a {
 }
 
 .final-footer {
-  background-color: var(--primary-bgc);
+  background-color: #303030;
   height: 100px;
 }
 
@@ -118,7 +142,7 @@ ul li a {
 }
 
 .btn-sign-up button {
-  background-color: var(--primary-bgc);
+  background-color: #303030;
   border: 2px solid #0282f9;
   color: #fff;
   padding: 10px 15px;
