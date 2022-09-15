@@ -38,8 +38,13 @@
     </div>
 </header>
 <main>
-    <div class="jumbotron">
-        
+    <div class="jumbotron"></div>
+    <div class="main-content">
+        <div class="container">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
     </div>
 </main>
 </body>

@@ -14,16 +14,13 @@ header #notify {
   height: 20px;
   color: #fff;
 }
-
 header #notify .container {
   text-align: end;
 }
-
 header #notify .container span {
   padding: 5px 10px;
   font-size: 10px;
 }
-
 header .header-nav {
   display: flex;
   align-items: center;
@@ -31,20 +28,16 @@ header .header-nav {
   height: 100px;
   width: 100%;
 }
-
 header img {
   height: 80px;
 }
-
 header ul {
   display: flex;
   list-style-type: none;
 }
-
 header ul li {
   padding: 0 15px;
 }
-
 header ul li a {
   text-decoration: none;
   font-size: 15px;
@@ -52,22 +45,21 @@ header ul li a {
   color: #303030;
   padding-bottom: 25px;
 }
-
-header ul li a:hover,
-header ul li a.active {
+header ul li a:hover, header ul li a.active {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
 }
 
-.main-content {
+main .main-content {
   background-color: #303030;
   height: 150px;
 }
-
-.jumbotron {
+main .jumbotron {
+  background-image: url("/images/jumbotron.jpg");
   background-position: top;
   background-size: cover;
-  height: 300px;
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 .current-series {
@@ -79,13 +71,11 @@ header ul li a.active {
   width: 25%;
   padding: 10px;
 }
-
 .comic-card .comics {
   display: block;
   height: 90%;
   width: 100%;
 }
-
 .comic-card .comics-text {
   color: #fff;
   font-size: 15px;
@@ -148,4 +138,3 @@ ul li a {
   padding: 10px 15px;
   cursor: pointer;
 }
-
