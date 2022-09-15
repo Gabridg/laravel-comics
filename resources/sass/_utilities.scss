@@ -1,0 +1,144 @@
+// HEADER SCSS
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+
+img {
+    height: 80px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 0 5px;
+}
+
+ul li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+// MAIN SCSS
+
+.main-content {
+    background-color: var(--primary-bgc);
+    height: 150px;
+}
+
+.jumbotron {
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.current-series {
+    background-color: var(--primary-bgc);
+}
+
+.comic-card {
+    height: 80px;
+    width: 25%;
+    padding: 10px;
+
+    .comics {
+        display: block;
+        height: 90%;
+        width: 100%;
+    }
+
+    .comics-text {
+        color: #fff;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+
+// FOOTER SCSS
+
+.background-footer {
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container .DC-shop {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: 0 30px;
+    height: 190px;
+}
+
+#shop {
+    display: block;
+}
+
+h4 {
+    color: #fff;
+}
+
+ul li a {
+    font-size: 13px;
+}
+
+.container img {
+    height: 53%;
+    margin-left: 100px;
+}
+
+
+.final-footer {
+    background-color: var(--primary-bgc);
+    height: 100px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-us {
+    display: flex;
+}
+
+.follow-us ul {
+    display: flex;
+}
+
+.follow-us h4 {
+    color: #0282f9;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.follow-us li {
+    padding: 0 10px;
+}
+
+.btn-sign-up button {
+    background-color: var(--primary-bgc);
+    border: 2px solid #0282f9;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
