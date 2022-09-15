@@ -60,8 +60,10 @@ header {
 }
 
 .jumbotron {
+    background-image: url("../images/jumbotron.jpg");
     background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
 }
 

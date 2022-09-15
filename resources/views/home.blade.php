@@ -37,5 +37,10 @@
         </div>
     </div>
 </header>
+<main>
+    <div class="jumbotron">
+        
+    </div>
+</main>
 </body>
 </html>
