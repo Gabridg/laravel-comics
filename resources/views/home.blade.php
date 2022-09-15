@@ -6,10 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- CSS -->
-    <link rel="stylesheet" href=" {{ assets('css/app.css') }}">
+    <link rel="stylesheet" href=" {{ asset('css/app.css') }}">
 
 </head>
 <body>
-    
+<header>
+    <div class="container">
+        <div class="header-nav">
+            <figure>
+                <img src="{{ asset('images/dc-logo.png')}} " alt="">
+            </figure>
+            <div>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
 </body>
 </html>

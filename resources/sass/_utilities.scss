@@ -1,11 +1,16 @@
 // HEADER SCSS
+header {
+    .container {
+        margin: 0 auto;
+    }
 
-.header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    width: 100%;
+    .header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+    }
 }
 
 img {
@@ -71,9 +76,6 @@ ul li a {
     padding: 10px 0;
 }
 
-.container {
-    display: flex;
-}
 
 .container .DC-shop {
     display: flex;
