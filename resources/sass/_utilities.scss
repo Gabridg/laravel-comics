@@ -1,7 +1,7 @@
 // HEADER SCSS
 header {
-    .container {
-        margin: 0 auto;
+    #notify {
+        background-color: var(--border-color);
     }
 
     .header-nav {
@@ -11,23 +11,26 @@ header {
         height: 100px;
         width: 100%;
     }
-}
 
-img {
-    height: 80px;
-}
+    img {
+        height: 80px;
+    }
 
-ul {
-    display: flex;
-}
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
 
-ul li {
-    padding: 0 5px;
-}
+    ul li {
+        padding: 0 5px;
+    }
 
-ul li a {
-    font-size: 15px;
-    font-weight: bold;
+    ul li a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        color: var(--primary-bgc);
+    }
 }
 
 
@@ -83,10 +86,6 @@ ul li a {
     flex-wrap: wrap;
 }
 
-.container div {
-    margin: 0 30px;
-    height: 190px;
-}
 
 #shop {
     display: block;
@@ -100,23 +99,11 @@ ul li a {
     font-size: 13px;
 }
 
-.container img {
-    height: 53%;
-    margin-left: 100px;
-}
-
-
 .final-footer {
     background-color: var(--primary-bgc);
     height: 100px;
 }
 
-.container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .follow-us {
     display: flex;
