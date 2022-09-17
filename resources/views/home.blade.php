@@ -128,7 +128,8 @@
                             <li><a href="#">DC Power Visa</a></li>
                         </ul>
                     </div>
-                    <div class="links">
+                    <br>
+                    <div class="links" id="shop">
                         <h4>SHOP</h4>
                         <ul>
                             <li><a href="#">Shop DC</a></li>
