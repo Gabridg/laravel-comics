@@ -24,7 +24,7 @@
             </figure>
                 <ul>
                     <li><a href="{{ route('characters') }}">CHARACTERS</a></li>
-                    <li><a href="">COMICS</a></li>
+                    <li><a href="" class="active">COMICS</a></li>
                     <li><a href="">MOVIES</a></li>
                     <li><a href="">TV</a></li>
                     <li><a href="">GAMES</a></li>
@@ -41,9 +41,10 @@
     <div class="jumbotron"></div>
     <div class="main-content">
         <div class="container">
-            <ul>
-                <li></li>
-            </ul>
+
+           <figure>
+            <img src="" alt="{{ $comic['series']}}">
+           </figure>
         </div>
     </div>
 </main>
