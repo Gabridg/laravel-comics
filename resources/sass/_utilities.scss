@@ -57,7 +57,6 @@ main {
 
     .main-content {
         background-color: $primary-bgc;
-        height: 150px;
     }
 
     .jumbotron {
@@ -68,50 +67,98 @@ main {
         height: 400px;
     }
 
-}
-
-.current-series {
-    background-color: $primary-bgc;
-}
-
-.comic-card {
-    height: 80px;
-    width: 25%;
-    padding: 10px;
-
-    .comics {
-        display: block;
-        height: 90%;
-        width: 100%;
+    .current-series {
+        background-color: $border-color;
+        color: #fff;
+        font-size: 20px;
+        width: 25%;
+        text-align: center;
+        position: relative;
+        top: -25px;
+        padding: 15px;
     }
 
-    .comics-text {
+    .comic-card {
+        width: calc(100% / 6);
+        padding: 50px 0;
+        height: 250px;
+
+        .comics {
+            display: block;
+            height: 100%;
+            width: 150px;
+        }
+
+        .comics-text {
+            color: #fff;
+            font-size: 15px;
+            padding-top: 10px;
+            text-transform: uppercase;
+        }
+    }
+
+    .load-div {
+        padding: 30px 0;
+    }
+
+    .load-button {
+        background-color: $border-color;
         color: #fff;
         font-size: 15px;
-        padding-top: 10px;
+        width: 25%;
+        text-align: center;
+        padding: 15px;
+        font-weight: bolder;
     }
 }
 
+#nav-shop {
+    background-color: $border-color;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+
+    .shop-logos {
+        height: 80px;
+
+    }
+
+    .d-flex {
+        padding: 10px 0;
+
+        a {
+            padding: 10px;
+        }
+    }
+}
 
 // FOOTER SCSS
 
-.background-footer {
+.main-footer {
+    background-image: url("/images/footer-bg.jpg");
     background-position: center;
     background-size: contain;
     height: 300px;
     padding: 10px 0;
 }
 
-
-.container .DC-shop {
+.DC-shop {
     display: flex;
     width: 40%;
     flex-wrap: wrap;
 }
 
 
-#shop {
+.links {
     display: block;
+}
+
+#logo-bg {
+    height: 400px;
+    position: relative;
+    top: -70px;
+    right: -200px;
+    z-index: 0;
 }
 
 h4 {
