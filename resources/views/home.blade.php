@@ -23,4 +23,4 @@
 </div>
 @endsection
 
-{{--- todo try to catch error
+{{--- todo try to catch error---}}
