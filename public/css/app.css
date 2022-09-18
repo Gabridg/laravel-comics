@@ -157,12 +157,17 @@ main .load-button {
   color: #fff;
   padding: 10px 0;
 }
+.links ul li a {
+  font-size: 13px;
+  line-height: 25px;
+  color: #959595;
+}
 
 #shop {
   margin-top: 50px;
 }
 
-ul li a {
+#nav-shop ul li a {
   font-size: 13px;
   line-height: 25px;
 }
@@ -175,9 +180,15 @@ ul li a {
   z-index: 0;
 }
 
-.final-footer {
+.bottom-footer {
   background-color: #303030;
   height: 100px;
+  position: relative;
+  z-index: 1;
+}
+.bottom-footer .d-flex {
+  justify-content: space-between;
+  padding-top: 25px;
 }
 
 .follow-us {
@@ -205,4 +216,6 @@ ul li a {
   color: #fff;
   padding: 10px 15px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
 }
