@@ -235,6 +235,16 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
+Route::get('/show/{id}', function ($id) {
+    $comics = config('comics');
+
+    if(!is_numeric($id) || $id < 0 || $id >= count($comics)){
+        abort(404);
+    }
+    $comic = $comics[$id];
+    return view('show', compact('comic'));
+})->name('show');
+
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
