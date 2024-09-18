@@ -3,7 +3,7 @@
 @section('comics')
 <div id="view-gallery">
     <div class="container">
-        <img src="" alt="">    
+        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}} image">    
     </div>
 </div>
 <div class="container">
